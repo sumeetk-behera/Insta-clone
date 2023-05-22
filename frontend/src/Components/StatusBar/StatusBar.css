@@ -1,0 +1,28 @@
+.statusbar_container {
+  width: 615px;
+  height: 120px;
+  background-color: white;
+  border: 1px solid #dbdbdb;
+  margin-top: 25px;
+  display: flex;
+  /*Make scroll effect horizontally*/
+  overflow-x: scroll;
+}
+/*We have add pseudo class for chromebrowser to hide the scrollbar for the parent div*/
+.statusbar_container::-webkit-scrollbar {
+  display: none;
+}
+.statusbar_avatar {
+  min-width: 55px;
+  min-height: 55px;
+  border: 3px solid #df3968;
+}
+.status {
+  margin: 25px 15px;
+}
+.statusbar_text {
+  font-size: 12px;
+  max-width: 50px;
+  overflow-x: hidden;
+  text-align: center;
+}

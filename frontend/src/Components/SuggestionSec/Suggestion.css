@@ -1,0 +1,33 @@
+.suggestion_container {
+  width: 325px;
+  height: 290px;
+  margin-top: 25px;
+}
+.suggestion_header {
+  font-weight: bold;
+  color: #8e8e8e;
+}
+.suggestion_content {
+  height: 256px;
+  width: 290px;
+  margin-top: 10px;
+}
+.suggestion_frnd {
+  display: flex;
+  padding: 5px 0px;
+}
+
+.suggestion_img {
+  max-width: 35px;
+  max-height: 35px;
+}
+.suggestion_name {
+  width: 80px;
+  font-weight: bold;
+  margin: 10px;
+}
+.suggestion_follow {
+  margin: 10px;
+  font-weight: bold;
+  color: rgb(0, 81, 255);
+}
